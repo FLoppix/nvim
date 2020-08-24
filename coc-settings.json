@@ -1,4 +1,14 @@
 {
+		// rust
     "rust-analyzer.inlayHints.chainingHints": false,
-    "rust-analyzer.checkOnSave.enable": true
+    "rust-analyzer.checkOnSave.enable": true,
+
+	// explorer
+  "explorer.width": 40,
+  "explorer.icon.enableNerdfont": true,
+  "explorer.previewAction.onHover": false,
+  "explorer.keyMappings": {
+    "<cr>": ["expandable?", "expand", "open"],
+		"v": "open:vsplit"
+  }
 }
