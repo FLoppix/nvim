@@ -9,5 +9,6 @@ source $HOME/.config/nvim/themes/syntax.vim
 " Plugin Configs
 source $HOME/.config/nvim/plug-config/rainbow-brackets.vim
 source $HOME/.config/nvim/plug-config/nerd-tree.vim
-source $HOME/.config/nvim/plug-config/nerd-tree.vim
+source $HOME/.config/nvim/plug-config/rust.vim
+source $HOME/.config/nvim/plug-config/sneak.vim
 

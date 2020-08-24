@@ -26,6 +26,7 @@ Plug 'lifepillar/vim-solarized8'
 Plug 'haishanh/night-owl.vim'
 Plug 'bluz71/vim-nightfly-guicolors'
 Plug 'tpope/vim-surround'
+Plug 'justinmk/vim-sneak'
 
 call plug#end()
 
