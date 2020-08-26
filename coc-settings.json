@@ -1,14 +1,26 @@
 {
-		// rust
-    "rust-analyzer.inlayHints.chainingHints": false,
-    "rust-analyzer.checkOnSave.enable": true,
+  // rust
+  "rust-analyzer.inlayHints.chainingHints": true,
+  "rust-analyzer.checkOnSave.enable": true,
 
-	// explorer
+  // explorer
   "explorer.width": 40,
   "explorer.icon.enableNerdfont": true,
   "explorer.previewAction.onHover": false,
   "explorer.keyMappings": {
     "<cr>": ["expandable?", "expand", "open"],
-		"v": "open:vsplit"
-  }
+    "v": "open:vsplit"
+  },
+
+  // prettier
+  "coc.preferences.formatOnSaveFiletypes": [
+    "css",
+    "markdown",
+    "javascript",
+    "typescript",
+    "javascriptreact",
+    "typescriptreact",
+    "json",
+    "graphql"
+  ]
 }
